@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+html {
+    background-color: #202020;
+    color: #ffffffad;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4, 
+nav {
+    color: #FFFFFF;
+}
+
+a:link {
+    color: #FFDF6C;
+}
+
+a:visited {
+    color: #ff9b6ca8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {    
+    display: flex;
+    flex-direction: column;        
+    list-style-type: none;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 97%;
+    background-color:#3F3F3F;
+    height: 300px;
+    /* only for demonstration, should be removed */
+}
+
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
