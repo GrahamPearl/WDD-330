@@ -6,6 +6,10 @@ const links = [
         url: "week1/index.html"
     },
     {
+        label: "Test Driven Design Workshop",
+        url: "week2/TDD - TESTING WORKSHOP.pdf"
+    },
+    {
         label: "Week2 notes",
         url: "week2/index.html"
     },
